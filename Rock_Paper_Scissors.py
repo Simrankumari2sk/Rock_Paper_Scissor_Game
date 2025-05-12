@@ -32,8 +32,10 @@ if user == 0:
     print(rock)
 elif user == 1:
     print(paper)
-else:
+elif user == 2:
     print(scissors)
+else:
+    print("Invalid Input")
 
 print("Computer:")
 computer = (rock, paper, scissors)
